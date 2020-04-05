@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# Node dependency directory
+node_modules
+
+# Typescript v1 declaration files
+typings/
+
+# ignore some editor folders to commit
+.idea
+
+# Yarn Integrity file
+.yarn-integrity
+
+
+# Npm Lock file
+package-lock.json
+package.lock
+
+
+# production
+build
+lib
