@@ -1,0 +1,56 @@
+{
+	"name": "styled-default",
+	"version": "1.0.0",
+	"description": "A carefully crafted browser defaults for styled-components",
+	"main": "lib/index.js",
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"build": "tsc",
+		"lint": "eslint src --ext .tsx,.ts",
+		"pretty": "prettier --write --config .prettierrc src/**/*.{ts,tsx}",
+		"format": "npm run lint -- --fix",
+		"clean": "rimraf lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ahmadHuss/styled-default.git"
+	},
+	"keywords": [
+		"react",
+		"styled-components",
+		"css",
+		"normalize.css"
+	],
+	"author": {
+		"name": "Ahmad Hussnain",
+		"url": "https://github.com/ahmadhuss/"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ahmadHuss/styled-default/issues"
+	},
+	"homepage": "https://github.com/ahmadHuss/styled-default#readme",
+	"peerDependencies": {
+		"styled-components": ">3 <=5"
+	},
+	"devDependencies": {
+		"@types/react": "^16.9.32",
+		"@types/styled-components": "^5.0.1",
+		"@typescript-eslint/eslint-plugin": "^2.26.0",
+		"@typescript-eslint/parser": "^2.26.0",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.10.1",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.19.0",
+		"prettier": "^2.0.2",
+		"react": "^16.13.1",
+		"rimraf": "^3.0.2",
+		"styled-components": "^5.0.1",
+		"typescript": "^3.8.3"
+	},
+	"engines": {
+		"node": ">=10.0.0"
+	}
+}
