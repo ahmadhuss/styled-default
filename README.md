@@ -4,12 +4,12 @@ A carefully crafted browser defaults for styled-components.
 ## Installation
 npm:
 ```
-npm install --save-dev styled-default
+npm install styled-default
 ```
 
 Yarn:
 ```
-yarn add --dev styled-default
+yarn add styled-default
 ```
 
 
